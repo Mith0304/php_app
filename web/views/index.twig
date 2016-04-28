@@ -1,0 +1,19 @@
+{% extends "layout.html" %}
+
+{% block content %}
+<div class="jumbotron text-center">
+  <div class="container">
+    <a href="/" class="lang-logo">
+      <img src="/images/lang-logo.png">
+    </a>
+    <h1>php app for the blockchain</h1>
+    <p>This app prints the 10 last blocks of the blockchain in hexadecimal and binary</p>
+   </div>
+</div>
+<div class="container">
+  <div class="alert alert-info text-center" role="alert">
+	<p>Test : <?php echo $var; ?> </p>
+  </div>
+</div>
+
+{% endblock %}

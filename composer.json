@@ -1,0 +1,22 @@
+{
+    "name": "Blockchain/Blockchain",
+    "description": "Blockchain API client library",
+    "keywords": ["bitcoin", "blockchain"],
+    "homepage": "https://github.com/blockchain/api-v1-client-php",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Blockchain\\": "src/"
+        }
+    },
+    "require": {
+<<<<<<< HEAD
+        "ext-bcmath": "*",
+        "ext-curl": "*"
+    }
+=======
+		"ext-bcmath": "*",
+        "ext-curl": "*"
+	}
+>>>>>>> 09d1c101d0ba4ca72d5b39e3869263bf9d688a83
+}
